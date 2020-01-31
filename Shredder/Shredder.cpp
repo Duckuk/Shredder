@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <iostream>
 #include <fstream>
 #include <thread>
@@ -47,7 +48,7 @@ int wmain(int argc, wchar_t *argv[]) {
 		}
 
 		file.seekg(0, file.end);
-		UINT64 size = file.tellg();
+		uint64_t size = file.tellg();
 		file.seekg(0);
 
 		wcout << "Overwriting binary data...";
