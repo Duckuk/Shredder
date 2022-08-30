@@ -82,8 +82,6 @@ int wmain(int argc, wchar_t *argv[]) {
 		}
 	}
 
-	int numFiles = argc - 1;
-
 	if (files.size() > 1) {
 		wcout << "Selected " << files.size() << " files" << endl;
 	}
@@ -96,7 +94,6 @@ int wmain(int argc, wchar_t *argv[]) {
 	if (tolower(getchar()) != 'y')
 		return 0;
 
-	fstream file;
 	for (const auto& x : files) {
 		if (filesystem::is_directory(x)) {
 			for (const auto& y : filesystem::recursive_directory_iterator(x)) {
