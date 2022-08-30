@@ -7,9 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shredder", "Shredder\Shredd
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834A660C-3103-410E-AD1B-E7017BBA02C1}.Debug|x64.ActiveCfg = Debug|x64
+		{834A660C-3103-410E-AD1B-E7017BBA02C1}.Debug|x64.Build.0 = Debug|x64
 		{834A660C-3103-410E-AD1B-E7017BBA02C1}.Release|x64.ActiveCfg = Release|x64
 		{834A660C-3103-410E-AD1B-E7017BBA02C1}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
